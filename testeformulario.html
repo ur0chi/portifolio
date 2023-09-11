@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <section>
+    <h1>contato</h1>
+    <form method="GET"action="">
+        <label>Nome</label><br>
+        <input type="text" name="nome"><br>
+
+        <label>e-mail</label><br>
+        <input type="email" name="email" placeholder="email@gmail.com"><br><br>
+
+        <label>data de ida</label><br>
+        <input type="date" name="dataida"><br>
+
+        <label>data de volta</label><br>
+        <input type="date" name="datavolta"><br>
+
+        <label> numero de pessoas</label><br>
+        <input type="number" nome="qtpessoas"><br>
+
+        <label>telefone</label><br>
+        <input type="text" name="telefone"><br><br>
+
+        
+        <fieldset>
+            <legend>Metodo de pagamento</legend>
+            <label>
+            <input type="radio" name="formapagamento" value="cartao de credito"> cartao de credito
+            <input type="radio" name="formapagamento" value="boleto"> boleto
+            <input type="radio" name="formapagamento" value="pix"> pix
+        </fieldset><br>
+
+        <fieldset>
+            <legend>escolha o prazo para pagamento</legend>
+            <select>name="prazopagamento"</select> 
+                <option value="avista">á vista</option>
+                <option value="5X">5X sem juros</option>
+                <option value="10x"selected>10 vezes com juros</option>
+        </fieldset>
+    </form>
+ </section>
+    
+</body>
+</html>
